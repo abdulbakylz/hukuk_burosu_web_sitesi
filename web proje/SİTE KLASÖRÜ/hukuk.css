@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: url('hukuk1.jpg'); 
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+.container .navbar {
+    width: 100%;
+    height: 80px;
+    background: rgba(182, 12, 12, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .resim a {
+    height: 60px;
+    width: auto;
+    margin-left: 20px;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 1px 8px;
+    line-height: 80%;
+}
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    list-style: none;
+    display: flex;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 0px 0px;
+    transition: 0.5s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: #911111;
+    border-radius: 2px;
+}
+.container.center {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: sans-serif;
+    user-select: none;
+    text-align: center;
+    padding: 50px;
+    background: white;
+}
+.center {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+.center h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.center h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+    margin: 20px;
+}
+.center h4 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form h3,
+.form h4,
+.form p,
+.menu.h1,
+.menu.h7 {
+    margin-left: 500px;
+}
+.menu.h1 {
+    color: #030202;
+    font-size: large;
+    font-weight: 658px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.menu.h7 {
+    margin-left: 800px;
+    color: #f3ebeb;
+    font-size: medium;
+    font-weight: bold;
+}
+.contact {
+    background: #730a0a;
+    color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact p {
+    color: #030202;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.form h4 {
+    margin: 20px;
+    color: #de1414;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.form p {
+    margin:  20px;
+    color: #030202;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+.container {
+    overflow: hidden;
+}
+.man{
+    background-image: url(./KAYNAK\ KLASÖRÜ/onlinehuku.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    padding: 100px;
+}
+.center p{
+    color: black;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.about-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+}
+.menu-container {
+    position: fixed;
+    right: 10px; 
+    z-index: 1000; 
+    padding: 10px; 
+    top: 35px;
+}
+
